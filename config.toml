@@ -1,0 +1,40 @@
+baseurl = "https://r-medicine-2018.com"
+title = "R/Medicine"
+canonifyurls = true
+theme = "hugo-conference"
+GoogleAnalytics = "UA-9232216-1"
+
+ignoreFiles = ["^README\\.md$", "^\\.Rhistory$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+Name = "R/Medicine 2019"
+Description = "R/Medicine 2018"
+Date = "September 7-8 2018"
+Venue = "The Omni Hotel"
+Organizers = "Brought to you by the Yale School of Public Health Biostatistics Department and the R Consortium"
+Address = "155 Temple Street"
+City = "New Haven"
+State = "CT"
+
+Sections = [
+  "about",
+  "keynotes",
+  "location",
+  "lodging",
+  "schedule",
+  "sponsors",
+  "committee",
+  "contact"
+]
+
+  [params.Titles]
+  about = "About"
+  keynotes = "Keynotes"
+  lodging = "Lodging and Dining"
+  location = "Location"
+  schedule = "Program"
+  sponsors = "Sponsors"
+  committee = "Committee"
+  contact = "Contact"
+
+  
